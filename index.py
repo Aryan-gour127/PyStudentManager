@@ -42,6 +42,21 @@ def DelStudent():
     return
 print("Invalid Credentials!")
 
+def SearchStudent():
 
+    while True:
+
+        Search = input("Enter Student Name : ")
+
+        for item in Student:
+            if Search != Student('name'):
+                print("Student not found!1")
+                return
+            
+            print(item.name)
+            print(item.branch)
+            print(item.department)
+            print(item.year)
+            break
 
 
