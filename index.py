@@ -62,3 +62,25 @@ def SearchStudent():
             break
 
 
+
+while True:
+
+    print("-" * 50)
+    print("🎓 PyStudentManager")
+    print("-" * 50)
+    print("1. Add student ")
+    print("2. Delete student")
+    print("3. Search student")
+
+
+
+    opt = input("Enter options number : ")
+
+    if opt == "1":
+        AddStudent()
+
+    elif opt == "2":
+        DelStudent()
+
+    elif opt == "3":
+        SearchStudent()
