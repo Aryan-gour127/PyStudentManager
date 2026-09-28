@@ -52,7 +52,9 @@ def SearchStudent():
             if Search != Student('name'):
                 print("Student not found!1")
                 return
-            
+
+            print("-" * 40)
+            print("\nStudent Found : ")
             print(item.name)
             print(item.branch)
             print(item.department)
