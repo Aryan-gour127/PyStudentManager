@@ -84,3 +84,8 @@ while True:
 
     elif opt == "3":
         SearchStudent()
+
+    elif opt == "4":
+        print("See you Goodbye!")
+        break
+print("invalid input")
